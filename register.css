@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    height: auto;
+}
+.BG{
+    top: 0%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 961px;
+}
+.Record {
+  position: relative;
+  width: 800px;
+  height: 880px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  left: 30%;
+  top: 20px;
+}
+
+h1 {
+  height: 50px;
+  color: rgb(224, 224, 224);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.namme {
+  position: absolute;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  left: 50px;
+  top: 30px;
+  height: 150px;
+}
+
+.input_namme {
+  background: none;
+  margin-top: 40px;
+  color: white;
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  border-color: gray;
+}
+
+.nomber {
+  position: absolute;
+  position: absolute;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  left: 50px;
+  top: 30px;
+  height: 150px;
+}
+
+.input_nomber {
+  background: none;
+  margin-top: 40px;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  width: 400px;
+  font-size: 20px;
+  border-color: gray;
+}
+
+.email {
+  position: absolute;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  top: 30px;
+  left: 50px;
+  height: 150px;
+}
+
+.input_email {
+  background: none;
+  margin-top: 40px;
+  width: 400px;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  border-color: gray;
+}
+
+.com {
+  position: relative;
+  color: white;
+  font-size: 35px;
+  top: 30px;
+  left: 50px;
+  height: 150px;
+}
+
+.input_com {
+  background: none;
+  margin-top: 40px;
+  width: 400px;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  border-color: gray;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  color: white;
+  left: 600px;
+  top: 50px;
+  width: 150px;
+  height: 80px;
+  background: none;
+  font-size: 35px;
+  border-color: white;
+  border-radius: 20px;
+  transition: background-color 0.6s ease;
+}
+.btn:hover {
+  background-color: gray;
+  color: black;
+  border: black;
+}

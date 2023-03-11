@@ -1,0 +1,451 @@
+@media (min-width: 320px) and (max-width: 800px){
+    html{
+        width: 100%;
+        height: auto;
+    }
+    body{
+        width: 100%;
+        height: 2800px;
+    }
+    .header{
+        width: 100%;
+        margin: 0 auto;
+        height: 265px;
+    }
+    .BG-phone{
+        top: 0%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .nav-header-phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 90%;
+        height: 41px;
+        padding-top: 40px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 45px;
+        cursor: pointer;
+    }
+    .nav-a-container-mobile{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .head-mobile{
+        width: 90%; 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .img-logo-phone{
+        width: 71px;
+        height: 79px;
+        padding-bottom: 50px;
+        padding-left: 40px;
+    }
+    .popup-mark-mobile{
+        display: none;
+    }
+    .register-href-mobile{
+        display: none;
+    }
+    .p1-header-mobile{
+        width: 100%;
+        height: 60px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 121px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: -20px;
+    }
+    .p2-header-mobile{
+        width: 100%;
+        height: 65px;
+        font-family: 'Moon Dance';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 80px;
+        color: goldenrod;
+        text-align: center;
+    }
+    .price-list-mobile{
+        width: 100%;
+        margin-top: 0;
+    }
+    .popup-mark-mobile{
+        text-decoration: none;
+        color: #a6d400;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 45px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .mainA-a-mobile{
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 45px;
+        color: white;
+    }
+    .headP-mobile{
+        display: none;
+    }
+    .price-list-mobile{
+        width: 100%;
+        height: 210px;
+    }
+    .Price-List-p-mobile{
+        width: 100%;
+        height: 43.15px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1px;
+
+        color: #FFFFFF;
+        padding-top: 28px;
+    }
+    .nav-price-mobile{
+        width: 100%;
+        padding: 0;
+    }
+    .nav-ul-price-mobile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-p1-mobile{
+        width: 100px;
+        height: 20px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 82px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition-duration: 1s;
+    }
+    .nav-p2-mobile{
+        width: 100px;
+        height: 20px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-img-price-mobile{
+        width: 142px;
+        height: 10px;
+        padding-top: 7px;
+        display: flex;
+        align-items: center;
+    }
+    .conteiner_teens-mobile{
+        width: 100%;
+        height: 264px;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .name-mobile{
+        width: 280px;
+        position: absolute;
+        font-size: 18px;
+        font-family: "Kreon";
+        transform: translate(-45%, -70%);
+    }
+    .about_myself-mobile{
+        width: 176px;
+        height: 250px;
+        position: absolute;
+        font-size: 11px;
+        font-family: "Knewave";
+        top: 70%;
+        left: 60%;
+        transform: translate(-10%, -46%);
+    }
+    .map-container-mobile{
+        width: 100%;
+        height: 700px;
+        display: block;
+        background: black;
+    }
+    .map-frame-mobile{
+        width: 100%;
+        height: 400px;
+    }
+    .map-p-mobile{
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
+    }
+    .map-p1-mobile{
+        font-family: 'Bitter', sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 3px;
+        font-style: italic;
+        text-align: center;
+        height: 20px;
+    }
+    .map-p2-mobile{
+        font-family: 'Bitter', sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 3px;
+        font-style: italic;
+        text-align: center;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .map-p3-mobile{
+        font-family: 'Bitter', sans-serif;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 3px;
+        font-style: italic;
+        text-align: center;
+    }
+    .comtacts-mobile{
+        width: 100%;
+        height: 225px;
+        background: rgb(10, 10, 10);
+        color: white;
+        margin-top: 0;
+        font-family: 'Bitter', sans-serif;
+        font-size: 20px;
+        line-height: 18px;
+        letter-spacing: 3px;
+        font-style: italic;
+        text-align: center;
+    }
+    .con-mobile{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-p-telegram-mobile{
+        height: 30px;
+        display: flex;
+        margin-left: 30px;
+        margin-top: 0;
+        align-items: center;
+    }
+    .img-p-inst-mobile{
+        display: flex;
+        margin-left: 150px;
+        margin-top: 0;
+        align-items: center;
+    }
+    .img-p-youtube{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    .img-p-facebook{
+        display: flex;
+        margin-left: 150px;
+        margin-top: 0;
+    }
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 1100px;
+        background: black;
+        display: block;
+        justify-content: center;
+    }
+    .footerblockone-mobile {
+        width: 100%;
+        height: 170px;
+    }
+    .footerLogo{
+        padding-left: 30px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .footerBlockOneText{
+        margin-top: 0;
+        margin-left: 5px;
+        font-family: "Kreon";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 33px;
+        color: white;
+    }
+    .footerblocktwo-mobile{
+        width: 100%;
+        height: 170px;
+    }
+    .footerblocktwotext-mobile{
+        font-family: "Kreon";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 35px;
+        margin-left: 150px;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+    .footerblocktwomail-mobile{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .footerblocktwonumber-mobile{
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+    .footerblocktwomap-mobile{
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+    .footer_block_two_schedule{
+        width: 100%;
+        padding-left: 45px;
+    }
+    .footerblocktwoschedule-mobile{
+        width: 50px;
+        font-family: "Kreon";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .footerblocktwoscheduletime-mobile{
+        width: 50px;
+        height: 200px;
+        margin-left: 80px;
+    }
+    .footerblocktwoscheduletimeimg-mobile{
+        width: 200px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 28px;
+    }
+    .footerblockthree-mobile{
+        width: 100%;
+        margin-top: 140px;
+    }
+    .footerblockthree-mobile h1{
+        margin-left: 120px;
+    }
+    .footer_block_three_text_one-mobile{
+        width: 400px;
+    }
+    .footer_block_three_text_two-mobile{
+        width: 400px;
+    }
+    .footer_block_three_text_three-mobile{
+        width: 400px;
+    }
+    .footer_block_three_text_four-mobile{
+        width: 400px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1440px){
+   html{
+        width: 100%;
+        height: auto;
+    }
+    body{
+        width: 100%;
+        height: 2800px;
+        background-color: black;
+    }
+    .header{
+        width: 100%;
+        margin: 0 auto;
+        height: 768px;
+    }
+    .BG-laptop{
+        top: 0%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .nav-header-laptop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 90%;
+        height: 41px;
+        padding-top: 40px;
+        font-family: 'Kreon';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 45px;
+        cursor: pointer;
+    }
+   .mainA-a-laptop {
+    font-size: 25px;
+    }
+   .register-href-laptop {
+    margin-left: 45px;
+    font-size: 25px;
+   }
+   .popup-mark-laptop {
+    display: none;
+   }
+    .img-logo-laptop {
+        width: 200px;
+        height: 148px;
+        padding-left:  7px; 
+    }
+    .about_myself-laptop {
+        font-size: 35.5px;
+        padding-top:  100px; 
+    }
+    .name-laptop {
+        left: 980px;
+    }
+    .conteiner_teens-laptop {
+        height: auto;
+    }
+    .price-list-div-mobile {
+        height: auto;
+    }
+    .nav-price-laptop {
+        padding-left: 50px;
+    }
+}
+
